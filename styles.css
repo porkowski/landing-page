@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+background-color:#1F2937;
+border:10px solid blue;  
+font-family: Roboto;
+font: 18px;
+color: #E5E7EB; 
+display:flex;
+flex-direction: column;
+align-items:center;
+}
+
+
+ul {
+list-style-type: none;
+margin:0px;
+padding:0px;
+display:flex;
+margin-left:auto;
+gap:16px;
+align-items:center;
+
+
+}
+
+a {
+text-decoration: none;
+color: white;
+}
+
+.first-qtr {
+background-color: #1F2937;
+border:10px solid green;
+}
+
+.fish-logo {
+display:flex;
+flex:1;
+border:10px solid pink;
+align-items: center;
+}
+
+.header-logo {
+font: 24px #F9FAF8;
+font-weight:600;
+}
+
+.first-qtr img {
+max-width:300px;
+}
+    
+.first-qtr .fishy {
+max-width:75px;
+}
+
+.second-qtr {
+display:flex;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+background-color: #1F2937;
+}
+
