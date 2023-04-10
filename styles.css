@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-background-color:#1F2937;
-border:10px solid blue;  
+
 font-family: Roboto;
-font: 18px;
+font-size: 18px;
 color: #E5E7EB; 
 display:flex;
 flex-direction: column;
 align-items:center;
+}
+
+img {
+border-radius:16px;
 }
 
 
@@ -31,33 +34,65 @@ color: white;
 
 .first-qtr {
 background-color: #1F2937;
-border:10px solid green;
+
 }
 
 .fish-logo {
 display:flex;
 flex:1;
-border:10px solid pink;
 align-items: center;
 }
 
 .header-logo {
-font: 24px #F9FAF8;
+font-size: 24px;
 font-weight:600;
 }
 
 .first-qtr img {
-max-width:300px;
+max-height:197px;
 }
-    
+ 
 .first-qtr .fishy {
 max-width:75px;
 }
 
-.second-qtr {
+.info {
 display:flex;
+border:10px solid blue;
+padding-bottom:70px;
+}
+
+.left-info {
+max-width:800px;
 
 }
+
+
+
+.info .large-text {
+font-size:48px;
+color:#F9FAF8;
+font-weight:800;
+flex-wrap:wrap;
+}
+
+
+.fishing-pic {
+margin-left:auto;
+}
+
+.left-info button {
+    background-color: #3882F6;
+    padding:8px 16px;
+    border-radius: 8px;
+    font-size:18px;
+    color:white;
+
+}
+
+/* SECOND QUARTER CODE */
+
+
 
 
 
