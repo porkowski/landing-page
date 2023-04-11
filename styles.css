@@ -90,6 +90,7 @@ margin-left:auto;
     border-radius: 8px;
     font-size:18px;
     color:white;
+    margin-top:10px;
 
 }
 
@@ -157,8 +158,8 @@ color:white;
 background-color: #3882F6;
 border-radius:16px;
 padding:75px 0px;
-margin-left:300px;
-margin-right:300px;
+margin-left:200px;
+margin-right:200px;
 margin-top: 75px;
 margin-bottom: 75px;
 }
